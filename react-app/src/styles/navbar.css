@@ -1,0 +1,27 @@
+.navbar {
+    position: fixed;
+    width: 100%;
+    max-width: 400px;
+    background-color: lightgrey;
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-menu a {
+    text-decoration: none;
+    color: black;
+    font-size: .9rem;
+}
+
+
+/* for smaller screen */
+@media (max-width: 800px) {
+
+}
