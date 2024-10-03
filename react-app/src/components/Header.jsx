@@ -23,7 +23,7 @@ function Header() {
             <ul className='headerMenu'>
                     <li className='logo'>
                         <a href="#">
-                            <h1>QuickCram 
+                            <h1>BrainZap 
                                 <img src={logo} alt="" id='logo'/>
                             </h1>
                         </a>

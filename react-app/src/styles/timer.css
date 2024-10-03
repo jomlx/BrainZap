@@ -1,0 +1,55 @@
+.timer-container {
+    width: 100%;
+    height: 100vh;
+    max-width: 400px;
+    max-height: 290px;
+    background-color: lightgrey;
+    border-radius: 10px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 30px;
+    gap: 0px;  
+}
+
+.timer-menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.timer h1 {
+    font-size: 7rem;
+    font-weight: 400;
+}
+
+.timer-menu li button {
+    font-size: 1rem;
+    padding: 5px 10px;
+    background-color: transparent;
+}
+
+.timer-menu li button:hover {
+    cursor: pointer;
+}
+
+.timer-menu li button.active {
+    background-color: grey;
+    color: white;
+}
+
+
+.start-button {
+    font-size: 1.3rem;
+    padding: 10px 50px;
+    font-weight: 500;
+}
+
+.start-button:hover {
+    outline: none;
+    background-color: grey;
+    color: white;
+}
+
+
