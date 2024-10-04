@@ -1,0 +1,16 @@
+.alert-container {
+    width: 100%;
+}
+
+.alert {
+    width: 100%;
+    max-width: 510px;
+    background-color: #50C878;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    z-index: 999;
+}
