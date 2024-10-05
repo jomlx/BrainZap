@@ -1,0 +1,34 @@
+/* Styles for the layout */
+.layout {
+    display: grid;
+    grid-template-rows: auto 1fr; /* Header takes up the auto height and the rest is flexible */
+    grid-template-columns: 250px 1fr; /* Sidebar (navbar + timer) on the left, library on the right */
+    grid-template-areas:
+      "header header"
+      "sidebar main";
+    height: 100vh; /* Full height of the viewport */
+  }
+  
+  header {
+    grid-area: header;
+    background-color: #f4f4f4; /* Just a sample background */
+    padding: 20px;
+  }
+  
+  .left-part {
+    grid-area: sidebar;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #e2e2e2; /* Sample background for the sidebar */
+    padding: 20px;
+  }
+  
+  .main {
+    grid-area: main;
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  /* Add any further styling to your components here */
+  

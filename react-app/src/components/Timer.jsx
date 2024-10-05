@@ -24,7 +24,7 @@ function Timer() {
             timer = setTimeout(() => setTime(time - 1), 1000);
         } else if (time === 0) {
             audioRef.current.play(); // Alarm play when time's up
-            handleLoop(); // For loop function
+            handleLoop(); // Call the loop function
             //setIsRunning(false);
         }
 
@@ -53,7 +53,8 @@ function Timer() {
             setSelectedTime('longBreak');
             setLoopCount(0);
         }
-        alert("Congratulations! you finish pomorodo!");
+
+
     }
     
     // Handle start function
@@ -84,7 +85,7 @@ function Timer() {
     }
 
     return (
-        <div className="timer-container">   
+        <div className="timer-container">
             <ul className="timer-menu">
                 <li>
                     <button onClick={() => handleTimeType('pomodoro')}

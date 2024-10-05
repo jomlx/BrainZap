@@ -6,7 +6,6 @@ import React, { useState } from 'react';
 function Header() {
     // control the sidebar visibilitiy
     const [isSlidebarOpen, setIsSlidebarOpen] = useState(false);
-
     // for toggle the burger-menu/menuBtn icon
     const isShow = () => {
         const sidebar = document.querySelector('.sidebar');
@@ -17,7 +16,7 @@ function Header() {
         }
         setIsSlidebarOpen(!isSlidebarOpen);
     }
-    
+
     return(
         <header className='header'>
             <ul className='headerMenu'>

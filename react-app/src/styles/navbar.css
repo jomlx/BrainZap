@@ -1,7 +1,7 @@
 .navbar {
     width: 100%;
     max-width: 400px;
-    background-color: lightgrey;
+    background-color: #424549;
     padding: 10px 30px;
     border-radius: 10px;
     margin: 5px;
@@ -15,12 +15,36 @@
 
 .navbar-menu a {
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: .9rem;
 }
 
 
 /* for smaller screen */
-@media (max-width: 800px) {
+@media screen and (max-width: 900px) {
+    .navbar {
+        width: 100%;
+        height: auto;
+        max-width: 700px;
+        margin: 5px auto;
+    }
 
+    .navbar-menu {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .navbar {
+        width: 100%;
+        height: auto;
+        max-width: 700px;
+        border-radius: 0px;
+        margin: 0;
+        margin-bottom: 5px;
+    }
+
+    .navbar-menu {
+        width: 100%;
+    }
 }
