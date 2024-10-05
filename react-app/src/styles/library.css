@@ -1,20 +1,44 @@
 .library-container {
     width: 100%;
-    margin: 5px;
+    margin: 10px;
 }
   
 .library-card {
     width: 100%;
     height: 100%;
     max-width: 700px;
-    min-height: 550px;
+    min-height: 600px;
     background-color: #424549;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
     border-radius: 10px;
+    padding: 10px;
 }
 
+.reviewer-card {
+  width: 100%;
+  height: 70px;
+  color:#c6c7c8;
+  background-color:#5c5f62;
+  border-radius: 5px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  padding: 10px;
+  font-size: 0.9rem;
+  line-height: 1.2;
+}
+
+.reviewer-title {
+  margin-bottom: 5px;
+}
+
+.reviewer-card:hover {
+  background-color:#676a6d;
+  color: #fff;
+}
+/* For responsive*/
 @media  screen and (max-width: 900px) {
   .library-container {
     width: 100%;

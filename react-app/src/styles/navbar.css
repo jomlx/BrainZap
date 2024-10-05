@@ -4,7 +4,7 @@
     background-color: #424549;
     padding: 10px 30px;
     border-radius: 10px;
-    margin: 5px;
+    margin: 10px;
 }
 
 .navbar-menu {
@@ -17,7 +17,7 @@
 
 .navbar-menu a {
     text-decoration: none;
-    color: white;
+    color: #b3b4b6;
     font-size: .9rem;
 }
 
@@ -26,6 +26,10 @@
     position: relative;
     padding: 5px;
     
+}
+
+.library:hover, .Reviewer:hover, .Ranking:hover, .Setting:hover{
+    color: white;   
 }
 
 .library::after{
@@ -73,18 +77,22 @@
 }
 
 .library:hover::after {
+    color: white;
     width: 60px;
 }
 
 .Reviewer:hover::after {
+    color: white;
     width: 75px;
 }
 
 .Ranking:hover::after {
+    color: white;
     width: 70px;
 }
 
 .Setting:hover::after {
+    color: white;
     width: 60px;
 }
 
