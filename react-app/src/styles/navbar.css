@@ -8,9 +8,11 @@
 }
 
 .navbar-menu {
+    position: relative;
     list-style: none;
     display: flex;
     justify-content: space-between;
+    padding-bottom: 3px;
 }
 
 .navbar-menu a {
@@ -19,6 +21,72 @@
     font-size: .9rem;
 }
 
+/* Just a hover decoration for navigation menu's*/
+.library, .Reviewer, .Ranking, .Setting{
+    position: relative;
+    padding: 5px;
+    
+}
+
+.library::after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 3px;
+    background-color: white;
+    left: 0;
+    bottom: 0;
+    transition: width 0.3s ease;
+}
+
+.Reviewer::after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 3px;
+    background-color: white;
+    left: 0;
+    bottom: 0;
+    transition: width 0.3s ease;
+}
+
+.Ranking::after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 3px;
+    background-color: white;
+    left: 0;
+    bottom: 0;
+    transition: width 0.3s ease;
+}
+
+.Setting::after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 3px;
+    background-color: white;
+    left: 0;
+    bottom: 0;
+    transition: width 0.3s ease;
+}
+
+.library:hover::after {
+    width: 60px;
+}
+
+.Reviewer:hover::after {
+    width: 75px;
+}
+
+.Ranking:hover::after {
+    width: 70px;
+}
+
+.Setting:hover::after {
+    width: 60px;
+}
 
 /* for smaller screen */
 @media screen and (max-width: 900px) {
