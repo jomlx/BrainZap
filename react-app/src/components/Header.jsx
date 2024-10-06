@@ -1,7 +1,8 @@
-import '../styles/header.css';
-import logo from '../assets/brain-logo.png';
-import menuBtn from '../assets/burger-menu.png';
-import React, { useState } from 'react';
+import '../styles/header.css'
+import logo from '../assets/brain-logo.png'
+import menuBtn from '../assets/burger-menu.png'
+import React, { useState } from 'react'
+import add from '../assets/add.png'
 
 function Header() {
     // control the sidebar visibilitiy
@@ -30,6 +31,7 @@ function Header() {
                     <li className='toHide'><a href="#">Home</a></li>
                     <li className='toHide'><a href="#">About</a></li>
                     <li className='toHide'><a href="#">Help</a></li>
+                    <li><img src={add} alt="add" className='add-flashcard'/></li>
                     <li><a href=""><button>Sign In</button></a></li>
                     <li className='menuBtn'><img src={menuBtn} alt="" onClick={isShow}/></li>
                 </ul>

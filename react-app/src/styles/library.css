@@ -16,7 +16,7 @@
     padding: 10px;
 }
 
-.reviewer-card {
+.lesson-card {
   width: 100%;
   height: 70px;
   color:#c6c7c8;
@@ -30,11 +30,11 @@
   line-height: 1.2;
 }
 
-.reviewer-title {
+.lesson-title {
   margin-bottom: 5px;
 }
 
-.reviewer-card:hover {
+.lesson-card:hover {
   background-color:#676a6d;
   color: #fff;
 }

@@ -102,6 +102,7 @@
         width: 100%;
         height: auto;
         max-width: 700px;
+        padding: 10px 50px;
         margin: 5px auto;
     }
 
@@ -116,6 +117,7 @@
         height: auto;
         max-width: 700px;
         border-radius: 0px;
+        padding: 10px 30px;
         margin: 0;
         margin-bottom: 5px;
     }

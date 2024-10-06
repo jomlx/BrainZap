@@ -1,10 +1,9 @@
 import './App.css'
-import Alert from "./components/Alert";
 import Header from "./components/Header";
-import Library from "./components/Library";
+import Library from "./pages/Library";
 import Navbar from "./components/Navbar";
 import Timer from "./components/Timer";
-import Main from './layout/Main';
+import Main from './components/Main';
 
 function App() {
   return(
@@ -16,7 +15,7 @@ function App() {
           <Timer />
         </div>
         <div className="right">
-          <Library />
+          <Main />
         </div>
       </main>
     </>

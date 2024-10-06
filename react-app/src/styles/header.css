@@ -19,6 +19,8 @@
 
 .header li {
     height: 40px;
+    display: flex;
+    align-items: center;
 }
 
 .header a {
@@ -42,6 +44,20 @@
 .header .menuBtn {
     display: none;
     align-items: center;
+}
+
+/* Add flashcard set button*/
+.add-flashcard {
+    width: 31px;
+    margin-right: -25px;
+}
+
+.add-flashcard:hover {
+    cursor: pointer;
+}
+
+.add-flashcard:active {
+    width: 33px;
 }
 
 /* sidebar styling */
@@ -90,7 +106,7 @@
     }
 
     .toHide {
-        display: none; /* hide the menu on the header */
+        display: none !important; /* hide the menu on the header */
     }
 
     .header h1 {
@@ -106,6 +122,12 @@
     .header .menuBtn {
         display: flex; /* display the burger-menu icon on the header */
         align-items: center;
+        margin: -7px;
+    }
+
+    .add-flashcard {
+        width: 31px;
+        margin-right: -5px;
     }
 
 }
